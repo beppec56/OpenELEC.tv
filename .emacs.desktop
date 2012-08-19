@@ -1,0 +1,359 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sun Sep 16 10:03:30 2012
+;; Desktop file format version 206
+;; Emacs version 23.3.1
+
+;; Global section:
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring '("Conf" "ENTERE" "ENTER" "WA" "SLEEP" "41c" "0028" "TUNER" "BACK" "ZOOM" "ASTE" "STAR" "spine" "_OK" "spinel" "#"))
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/mediacenter/xbmc-frodo/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/tools/mkpkg/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/mediacenter/xbmc-frodo/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/x11/driver/xf86-video-nvidia/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/mediacenter/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/tools/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/mediacenter/xbmc-frodo/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/Makefile" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/scripts/image" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/mediacenter/xbmc-frodo" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/beppe-tools/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/mediacenter/xbmc-frodo/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/" "/srv5/git/xbmc/xbmc-fm-beppe/hs-xbmc-fm-master-cws_b56/" "/srv5/git/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/build.OpenELEC_frodo_PVR-ION.x86_64-devel/v4l-utils-0.8.3/utils/keytable/rc_keymaps/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/build.OpenELEC_frodo_PVR-ION.x86_64-devel/v4l-utils-0.8.3/utils/keytable/rc_keymaps/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/build.OpenELEC_frodo_PVR-ION.x86_64-devel/eventlircd-42/udev/rules.d/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/sysutils/remote/eventlircd/evmap/" "~/bin/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/beppe-tools/make-devel.sh" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/" "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/tools/mkpkg/" "/srv5/git/OpenELEC.tv/"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  nil
+  "xbmc-frodo-theme-Confluence"
+  'dired-mode
+  nil
+  381
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/mediacenter/xbmc-frodo-theme-Confluence/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "mediacenter"
+  'dired-mode
+  nil
+  710
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/mediacenter/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "xbmc-frodo"
+  'dired-mode
+  nil
+  215
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/mediacenter/xbmc-frodo/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "packages"
+  'dired-mode
+  nil
+  982
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "beppe-OpenELEC.tv"
+  'dired-mode
+  nil
+  1263
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/")
+  nil)
+
+(desktop-create-buffer 206
+  "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/beppe-tools/clean-xbmc-frodo-prv-build.sh"
+  "clean-xbmc-frodo-prv-build.sh"
+  'sh-mode
+  nil
+  469
+  '(446 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "tools"
+  'dired-mode
+  nil
+  236
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/tools/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "x11"
+  'dired-mode
+  nil
+  196
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/x11/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "driver"
+  'dired-mode
+  nil
+  203
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/x11/driver/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "xf86-video-nvidia"
+  'dired-mode
+  nil
+  221
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/x11/driver/xf86-video-nvidia/")
+  nil)
+
+(desktop-create-buffer 206
+  "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/x11/driver/xf86-video-nvidia/meta"
+  "meta"
+  'fundamental-mode
+  nil
+  1091
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "beppe-tools"
+  'dired-mode
+  nil
+  242
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/beppe-tools/")
+  nil)
+
+(desktop-create-buffer 206
+  "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/scripts/image"
+  "image"
+  'sh-mode
+  nil
+  1665
+  '(1634 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "image"
+  'dired-mode
+  nil
+  112
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/scripts/image")
+  nil)
+
+(desktop-create-buffer 206
+  "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/mediacenter/xbmc-frodo/init.d/93_xbmc"
+  "93_xbmc"
+  'fundamental-mode
+  nil
+  3161
+  '(2847 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "init.d"
+  'dired-mode
+  nil
+  391
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/mediacenter/xbmc-frodo/init.d/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "tools"
+  'dired-mode
+  nil
+  198
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/tools/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "xbmc-fm-beppe"
+  'dired-mode
+  nil
+  1454
+  '(240 nil)
+  t
+  '("/srv5/git/xbmc/xbmc-fm-beppe/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "xbmc"
+  'dired-mode
+  nil
+  1945
+  '(nil nil)
+  t
+  '("/srv5/git/xbmc/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "git"
+  'dired-mode
+  nil
+  732
+  '(nil nil)
+  t
+  '("/srv5/git/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "OpenELEC.tv"
+  'dired-mode
+  nil
+  362
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "remote"
+  'dired-mode
+  nil
+  208
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/sysutils/remote/")
+  nil)
+
+(desktop-create-buffer 206
+  "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/sysutils/remote/eventlircd/evmap/ircore.evmap"
+  "ircore.evmap"
+  'fundamental-mode
+  nil
+  1344
+  '(1344 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/sysutils/remote/eventlircd/udev.d/98-eventlircd.rules"
+  "98-eventlircd.rules"
+  'fundamental-mode
+  nil
+  2864
+  '(5549 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "udev.d"
+  'dired-mode
+  nil
+  270
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/sysutils/remote/eventlircd/udev.d/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "eventlircd"
+  'dired-mode
+  nil
+  561
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/sysutils/remote/eventlircd/")
+  nil)
+
+(desktop-create-buffer 206
+  nil
+  "evmap"
+  'dired-mode
+  nil
+  1235
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/sysutils/remote/eventlircd/evmap/")
+  nil)
+
+(desktop-create-buffer 206
+  "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/sysutils/remote/eventlircd/evmap/topseed.evmap"
+  "topseed.evmap"
+  'fundamental-mode
+  nil
+  2377
+  '(1114 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/sysutils/remote/eventlircd/evmap/spinelplus.evmap"
+  "spinelplus.evmap"
+  'fundamental-mode
+  nil
+  1582
+  '(1 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
+(desktop-create-buffer 206
+  nil
+  "patches"
+  'dired-mode
+  nil
+  342
+  '(nil nil)
+  t
+  '("/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/sysutils/remote/eventlircd/patches/")
+  nil)
+
+(desktop-create-buffer 206
+  "/srv5/git/OpenELEC.tv/beppe-OpenELEC.tv/packages/mediacenter/xbmc-frodo/meta"
+  "meta"
+  'fundamental-mode
+  nil
+  1229
+  '(1163 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
