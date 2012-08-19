@@ -1,0 +1,8 @@
+Questo branch è parzialmente testato.
+
+Al primo boot, lock up del disk.
+Non è chiaro il motivo.
+MCE funzionante a singhiozzo al reset, dovuto togliere connettore e reinserire con sistema su.
+Sembra che capiti anche dopo wake up
+
+Per il resto ancora da testare.
