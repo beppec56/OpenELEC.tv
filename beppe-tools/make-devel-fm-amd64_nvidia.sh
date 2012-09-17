@@ -18,6 +18,6 @@ echo "less $LOG_FILE"
 
 echo "`date +"%Y-%m-%d_%H%M%S"`" > "$LOG_FILE"
 
-PROJECT=$PRJ PVR=yes XBMC=frodo ARCH=$ARCHIT make release >> "$LOG_FILE" 2>&1
+PROJECT=$PRJ ARCH=$ARCHIT make release >> "$LOG_FILE" 2>&1
 
 echo "`date +"%Y-%m-%d_%H%M%S"`" >> "$LOG_FILE"
