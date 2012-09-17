@@ -1,0 +1,41 @@
+--- lm_sensors-3.3.4/etc/sensors.conf.default.origin	2012-01-31 15:25:29.000000000 +0100
++++ lm_sensors-3.3.4/etc/sensors.conf.default	2012-09-17 23:09:54.503279304 +0200
+@@ -315,15 +315,36 @@
+     label in3 "+3.3V"
+     label in7 "3VSB"
+     label in8 "Vbat"
++    label temp1 "SYSTIN"
++    label temp2 "CPUTIN"
++    label fan1 "CHAFAN"
++    label fan2 "CPUFAN"
++    ignore intrusion0
+ 
+     set in2_min  3.3 * 0.90
+     set in2_max  3.3 * 1.10
+     set in3_min  3.3 * 0.90
+     set in3_max  3.3 * 1.10
++    set in4_min  1.5 * 0.90
++    set in4_max  1.5 * 1.20
++    set in5_min  1.7 * 0.90
++    set in5_max  1.7 * 1.10
++    set in6_min  1.8 * 0.90
++    set in6_max  1.8 * 1.10
+     set in7_min  3.3 * 0.90
+     set in7_max  3.3 * 1.10
+-    set in8_min  3.0 * 0.90
+-    set in8_max  3.3 * 1.10
++    set in8_min  3.0 * 1.0
++    set in8_max  3.0 * 1.20
++    set fan1_min  1000
++    set fan2_min  800
++    set fan3_min  0
++    set fan5_min  0
++    set temp1_max  70
++    set temp1_max_hyst  50
++    set temp2_max  70
++    set temp2_max_hyst  10
++    set temp3_max  70
++    set temp3_max_hyst  10
+ 
+ 
+ chip "w83627uhg-*"
