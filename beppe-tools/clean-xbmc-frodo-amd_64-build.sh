@@ -3,7 +3,8 @@
 echo "rimuove le istanze di xbmc-frodo-pvr dal corrente albero di build"
 echo "l'albero di build è hardcoded"
 
-BUILDDIR="build.OpenELEC_frodo-ION.x86_64-devel"
+
+BUILDDIR="build.OpenELEC_frodo-AMD_NVIDIA.x86_64-devel"
 
 if [ -d "$BUILDDIR" ] ; then
   XBMC_DIR=`ls $BUILDDIR | grep xbmc-frodo-`
