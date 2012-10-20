@@ -74,22 +74,39 @@ fi
     DISPLAY=:0.0 /usr/lib/xbmc/xbmc.bin $XBMC_ARGS > /dev/null 2>&1
     RET=$?
 
+    STOPPING="/storage/.config/stopping.sh"
+
     case "$RET" in
       0)
         if [ ! $(pidof console-kit-daemon) ]; then
           touch "$LOCKDIR/$LOCKFILE"
+# starting stopping.sh script
+          if [ -f $STOPPING ]; then
+            echo "!!! STOPPING script detected !!! (0)" >> /var/log/messages
+            sh $STOPPING
+          fi
           poweroff -f
         fi
         ;;
       64)
         if [ ! $(pidof console-kit-daemon) ]; then
           touch "$LOCKDIR/$LOCKFILE"
+# starting stopping.sh script
+          if [ -f $STOPPING ]; then
+            echo "!!! STOPPING script detected !!! (64)" >> /var/log/messages
+            sh $STOPPING
+          fi
           poweroff -f
         fi
         ;;
       66)
         if [ ! $(pidof console-kit-daemon) ]; then
           touch "$LOCKDIR/$LOCKFILE"
+# starting stopping.sh script
+          if [ -f $STOPPING ]; then
+            echo "!!! STOPPING script detected !!! (66)" >> /var/log/messages
+            sh $STOPPING
+          fi
           reboot
         fi
         ;;
