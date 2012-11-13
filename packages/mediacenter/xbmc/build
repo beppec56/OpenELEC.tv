@@ -313,7 +313,6 @@ cd $PKG_BUILD
             $XBMC_BLURAY \
             --enable-texturepacker --with-texturepacker-root="$ROOT/$TOOLCHAIN" \
             --disable-external-libraries \
-            --enable-external-ffmpeg \
             $XBMC_PLATFORM_SUPPORT \
             $XBMC_PLAYER \
 
