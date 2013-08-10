@@ -429,6 +429,9 @@ pre_configure_target() {
 # Todo: XBMC segfaults on exit when building with LTO support
   strip_lto
 
+# build dual core
+MAKEFLAGS=-j2
+
 # dont build parallel
 # MAKEFLAGS=-j1
 
