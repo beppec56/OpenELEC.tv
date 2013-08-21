@@ -21,7 +21,7 @@
 PKG_NAME="xbmc"
 PKG_VERSION="12.2-091cb29"
 if [ "$XBMC" = "master" ]; then
-  PKG_VERSION="13.alpha-2ef8929"
+  PKG_VERSION="13.alpha-6500f67"
 elif [ "$XBMC" = "xbmc-aml" ]; then
   PKG_VERSION="aml-frodo-d9119f2"
 fi
@@ -29,7 +29,7 @@ PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"
 PKG_SITE="http://www.xbmc.org"
-PKG_URL="$DISTRO_SRC/$PKG_NAME-$PKG_VERSION.tar.xz"
+PKG_URL="http://localhost/openelec/$PKG_NAME-$PKG_VERSION.tar.xz"
 PKG_DEPENDS="Python zlib bzip2 systemd ffmpeg libass curl rtmpdump fontconfig freetype libmad libogg libmodplug faad2 flac libmpeg2 taglib service.openelec.settings"
 PKG_BUILD_DEPENDS_TARGET="toolchain boost Python zlib bzip2 systemd lzo pcre swig ffmpeg libass enca curl libssh rtmpdump fontconfig fribidi tinyxml libjpeg-turbo libpng tiff freetype jasper libmad libsamplerate libogg libcdio libmodplug faad2 flac libmpeg2 taglib yajl sqlite"
 PKG_PRIORITY="optional"
