@@ -406,7 +406,6 @@ PKG_CONFIGURE_OPTS_TARGET="gl_cv_func_gettimeofday_clobber=no \
                            $XBMC_BLURAY \
                            --enable-texturepacker --with-texturepacker-root="$ROOT/$TOOLCHAIN" \
                            --disable-external-libraries \
-                           --enable-external-ffmpeg \
                            $XBMC_CODEC \
                            $XBMC_PLAYER"
 
