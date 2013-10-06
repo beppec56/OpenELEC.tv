@@ -7,6 +7,7 @@ DATE=`date +"%Y-%m-%d_%H%M%S"`
 
 ARCHIT=x86_64
 PRJ=Generic
+XBMC_T=master
 
 GIT_BRANCH=`git status | grep "On branch" | awk '{print $4}'`
 GIT_SHASH=`git log -n1 --format=%h`
@@ -18,6 +19,6 @@ echo "less $LOG_FILE"
 
 echo "`date +"%Y-%m-%d_%H%M%S"`" > "$LOG_FILE"
 
-PROJECT=$PRJ ARCH=i386 make release >> "$LOG_FILE" 2>&1
+PROJECT=$PRJ ARCH=$ARCHIT XBMC=$XBMC_T make release >> "$LOG_FILE" 2>&1
 
 echo "`date +"%Y-%m-%d_%H%M%S"`" >> "$LOG_FILE"
