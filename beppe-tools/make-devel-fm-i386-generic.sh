@@ -5,7 +5,7 @@
 
 DATE=`date +"%Y-%m-%d_%H%M%S"`
 
-ARCHIT=x86_64
+ARCHIT=i386
 PRJ=Generic
 XBMC_T=master
 
