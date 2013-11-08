@@ -135,7 +135,7 @@
   XBMC_VIS_PROJECTM="yes"
 
 # build and install 'GOOM' Visualization (yes / no)
-  XBMC_VIS_GOOM="yes"
+  XBMC_VIS_GOOM="no"
 
 # build and install 'Waveform' Visualization (yes / no)
   XBMC_VIS_WAVEFORM="yes"
