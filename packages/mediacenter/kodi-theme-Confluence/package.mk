@@ -17,12 +17,13 @@
 ################################################################################
 
 PKG_NAME="kodi-theme-Confluence"
-PKG_VERSION="14-bcfc032"
+# helix-oe_master-beppe (oe-4.95.5-helix +20)
+PKG_VERSION="14-9790c4e"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"
 PKG_SITE="http://www.kodi.tv"
-PKG_URL="$DISTRO_SRC/$PKG_NAME-$PKG_VERSION.tar.xz"
+PKG_URL="http://localhost/openelec/$PKG_NAME-$PKG_VERSION.tar.xz"
 PKG_DEPENDS_TARGET="toolchain kodi"
 PKG_PRIORITY="optional"
 PKG_SECTION="mediacenter"
