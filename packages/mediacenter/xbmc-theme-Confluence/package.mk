@@ -17,12 +17,13 @@
 ################################################################################
 
 PKG_NAME="xbmc-theme-Confluence"
-PKG_VERSION="13-84725b0"
+# 47_gotham-oe_master-beppe (oe-4.0.4-gotham)
+PKG_VERSION="13-5a158e3"
 PKG_REV="1"
 PKG_ARCH="any"
 PKG_LICENSE="GPL"
 PKG_SITE="http://www.xbmc.org"
-PKG_URL="$DISTRO_SRC/$PKG_NAME-$PKG_VERSION.tar.xz"
+PKG_URL="http://localhost/openelec/$PKG_NAME-$PKG_VERSION.tar.xz"
 PKG_DEPENDS_TARGET="toolchain xbmc"
 PKG_PRIORITY="optional"
 PKG_SECTION="mediacenter"
