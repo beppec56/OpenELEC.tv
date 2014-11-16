@@ -9,7 +9,7 @@ ARCHIT=x86_64
 PRJ=Generic
 XBMC_T=master
 
-GIT_BRANCH=`git status | grep "On branch" | awk '{print $4}'`
+GIT_BRANCH=`git branch |grep "*" | sed 's/* //g'`
 GIT_SHASH=`git log -n1 --format=%h`
 LOG_FILE="../make-oe_fm_dev-"$GIT_BRANCH"_"$GIT_SHASH"-"$DATE".log"
 
