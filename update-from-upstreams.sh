@@ -1,5 +1,5 @@
 #!/bin/bash
-CURRENT_BRANCH=`git status | grep "On branch" | awk '{ print $4 }'`
+CURRENT_BRANCH=`git branch |grep "*" | sed 's/* //g'`
 echo "Current branch is: $CURRENT_BRANCH"
 #git fetch upstream-ro-fm
 git checkout master && git fetch upstream-ro && git pull upstream-ro +master:master
