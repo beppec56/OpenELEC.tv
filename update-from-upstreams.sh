@@ -6,6 +6,6 @@ git checkout master && git fetch upstream-ro && git pull upstream-ro +master:mas
 #git fetch upstream-ro-xbmc
 #git checkout master-xbmc && git fetch upstream-ro-xbmc && git pull upstream-ro-xbmc +master:master-xbmc
 #attualizza openelec-5.0
-git checkout openelec-5.0
-git merge upstream-ro/openelec-5.0
+git checkout openelec-6.0
+git merge upstream-ro/openelec-6.0
 git checkout $CURRENT_BRANCH
