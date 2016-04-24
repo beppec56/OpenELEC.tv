@@ -39,9 +39,12 @@ case "$KODIPLAYER_DRIVER" in
     PKG_KEEP_CHECKOUT="no"
     ;;
   *)
-    PKG_VERSION="c1c4b9e"
-    PKG_GIT_URL="https://github.com/xbmc/xbmc.git"
-    PKG_GIT_BRANCH="Jarvis"
+    PKG_VERSION="a0969c3"
+# external git
+    PKG_GIT_URL="git://github.com/beppec56/xbmc.git"
+#local git
+    PKG_GIT_URL="/srv5/git/xbmc/kodi-fm-beppe/.git"
+    PKG_GIT_BRANCH="oe-6.95.2.1-Jarvis-beppe"
     PKG_KEEP_CHECKOUT="no"
     ;;
 esac
